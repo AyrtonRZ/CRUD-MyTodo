@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    box-sizing: 0;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0 50px;
+    background-color: #e5e5e5;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+body,
+input,
+textarea,
+button {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+}
+
+button {
+    cursor: pointer;
+}
+
+p {
+    margin: 0;
+}
+
+[disabled] {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardTodo {
+    background-color: #fff;
+    width: 500px;
+    height: 500px;
+    border: 5px solid #abcea1;
+    border-radius: 8px;
+    padding: 20px;
+    overflow-y: scroll;
+}
+
+.cardTodo::-webkit-scrollbar {
+    width: 0 !important;
+}
+.cardBody {
+    margin-top: 2rem;
+}
+
+.cardHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(171, 206, 161, 0.35);
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cardHeader button, .buttonDelete {
+    background-color: #abcea1;
+    padding: 3px;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+.linhaCard {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+
+}
+
+.nameAndDescription {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+
+table {
+    width: 100%;
+    background-color: white;
+    border-radius: 1rem;
+}
+
+table td {
+    padding: 0.5rem 0;
+}
+
+table thead th {
+    font-size: 1.25rem;
+    padding: 1rem 0;
+}
+
+#tbody tr{
+    border: 3px solid #abcea1;
+    background-color: #e2eede;
+}
